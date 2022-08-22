@@ -1,50 +1,36 @@
 {
-    "title": "Resume",
-    "name": "startbootstrap-resume",
-    "version": "5.0.8",
-    "scripts": {
-        "start": "node_modules/.bin/gulp watch"
-    },
-    "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "https://startbootstrap.com/template-overviews/resume",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
-        "email": "feedback@startbootstrap.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
-    },
-    "dependencies": {
-        "@fortawesome/fontawesome-free": "5.10.2",
-        "bootstrap": "4.3.1",
-        "jquery": "3.4.1",
-        "jquery.easing": "^1.4.1"
-    },
-    "devDependencies": {
-        "browser-sync": "2.26.7",
-        "del": "5.1.0",
-        "gulp": "4.0.2",
-        "gulp-autoprefixer": "7.0.0",
-        "gulp-clean-css": "4.2.0",
-        "gulp-header": "2.0.9",
-        "gulp-plumber": "^1.2.1",
-        "gulp-rename": "1.4.0",
-        "gulp-sass": "4.0.2",
-        "gulp-uglify": "3.0.2",
-        "merge-stream": "2.0.0"
-    }
+  "name": "John_Doe",
+  "version": "1.5.0",
+  "description": "An elegant responsive bootstrap 4.x theme.",
+  "main": "gulpfile.js",
+  "author": "DevCRUD",
+  "scripts": {
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "imagemin-jpeg-recompress": "^6.0.0",
+    "imagemin-pngquant": "^7.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "ie >= 8",
+    "edge >= 15",
+    "ie_mob >= 10",
+    "ff >= 45",
+    "chrome >= 45",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4"
+  ]
 }
