@@ -10841,7 +10841,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-body {
-  color: #f7f7f7 !important;
+  color: #212529 !important;
 }
 
 .text-muted {
@@ -10968,7 +10968,7 @@ a.text-dark:hover, a.text-dark:focus {
 p {
   font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1300 - 300)));
   opacity: .8;
-  color: #fcfcfc;
+  color: #444;
 }
 
 .title {
