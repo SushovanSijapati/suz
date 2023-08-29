@@ -14949,9 +14949,7 @@ body.sal-disabled [data-sal|=flip] {
   }
 }
 
-.rts-banner-area-three {
-  background: linear-gradient(180deg, #D4F7EC 0%, rgba(217, 217, 217, 0) 100%);
-}
+
 
 .banner-three-inner {
   height: 526px;
@@ -15454,7 +15452,7 @@ body.sal-disabled [data-sal|=flip] {
   align-items: center;
   gap: 15px;
   padding: 7px 20px 7px 7px;
-  background: #CBF3E7;
+  background: #334A5D;
   border-radius: 6px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -15471,7 +15469,7 @@ body.sal-disabled [data-sal|=flip] {
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
-  color: #083A5E;
+  color: #ffffff;
 }
 .rts-banner-area-three .shape-image .icon-wrapper .single.one {
   left: 15%;
